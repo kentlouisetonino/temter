@@ -1,5 +1,4 @@
-### Description
-#
+## $\textnormal{TempScale}$
 
 <br />
 
@@ -14,21 +13,20 @@
 
 <br />
 <br />
+<br />
 
 
 
-### System Design
-#
+## $\textnormal{System \ Design}$
 
 ![System Design](https://github.com/kentlouisetonino/tempscale/assets/69438999/1eb9642c-447c-45ee-a20c-d574250701cc)
 
 <br />
 <br />
+<br />
 
 
-
-### Local Development
-#
+## $\textnormal{Local \ Development}$
 
 > - Note the root `main.go` is a symbolic link.
 
@@ -40,23 +38,4 @@ sudo chmod +x run.sh
 
 # Run the app.
 ./run.sh
-```
-
-<br />
-<br />
-
-
-
-### Deployment
-#
-
-```sh
-# Run the multipass.
-sudo systemctl restart snap.multipass.multipassd.service
-
-# Deploy to snap store.
-snapcraft login
-snapcraft clean
-snapcraft --debug
-snapcraft push tempscale_<version-number-in-snapcraft-yaml>_amd64.snap --release=stable
 ```

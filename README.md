@@ -13,7 +13,6 @@
 
 <br />
 <br />
-<br />
 
 
 
@@ -21,7 +20,6 @@
 
 ![System Design](https://github.com/kentlouisetonino/tempscale/assets/69438999/1eb9642c-447c-45ee-a20c-d574250701cc)
 
-<br />
 <br />
 <br />
 
@@ -40,7 +38,6 @@ sudo chmod +x run.sh
 ./run.sh
 ```
 
-<br />
 <br />
 <br />
 

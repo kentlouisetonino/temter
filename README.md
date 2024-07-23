@@ -46,7 +46,7 @@ sudo chmod +x run.sh
 
 
 
-## $\texnormal{Installation}$
+## $\textnormal{Installation}$
 
 ```sh
 # If already installed.

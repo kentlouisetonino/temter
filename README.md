@@ -39,3 +39,22 @@ sudo chmod +x run.sh
 # Run the app.
 ./run.sh
 ```
+
+<br />
+<br />
+<br />
+
+
+
+## $\texnormal{Installation}$
+
+```sh
+# If already installed.
+sudo snap refresh tempscale
+
+# If not yet installed.
+sudo snap install tempscale
+
+# If want to remove.
+sudo snap remove tempscale
+```

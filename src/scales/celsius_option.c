@@ -36,6 +36,7 @@ void celsius_option(void) {
     fgets(garbage_buffer, 50, stdin);
 
     // Check if input is valid.
+    // TODO: input validation.
     int valid_input = check_valid_input(celsius_string);
     if (valid_input == 0) {
       invalid_input = 1;

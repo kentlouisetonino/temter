@@ -3,6 +3,7 @@
 #include "displays/clear_screen.h"
 #include "displays/escape_sequence.h"
 #include "inputs/app_option.h"
+#include "scales/celsius_option.h"
 #include <stdio.h>
 
 int main(void) {
@@ -30,6 +31,8 @@ int main(void) {
     // Reset the loop if invalid input.
     if (option == 0) {
       continue;
+    } else if (option == 1) {
+      celsius_option();
     };
 
     break;

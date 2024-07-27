@@ -1,5 +1,11 @@
 ## $\textnormal{TempScale}$
 
+<br />
+
+![Screenshot from 2024-07-27 21-46-23](https://github.com/user-attachments/assets/bd6d0e18-c426-464f-8877-2a6e98cdadf2)
+
+<br />
+
 > - A CLI tool that converts temperature scale.
 
 <br />

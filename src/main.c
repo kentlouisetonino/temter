@@ -7,6 +7,7 @@
 #include "scales/celsius_option.h"
 #include "scales/fahrenheit_option.h"
 #include "scales/kelvin_option.h"
+#include "scales/rankine_option.h"
 #include <stdio.h>
 
 int main(void) {
@@ -55,6 +56,10 @@ int main(void) {
     } else if (option == 3) {
       invalid_option = 0;
       kelvin_option();
+      continue;
+    } else if (option == 4) {
+      invalid_option = 0;
+      rankine_option();
       continue;
     };
 

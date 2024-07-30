@@ -44,7 +44,7 @@ void celsius_option(void) {
       invalid_input = 0;
     }
 
-    // Convert the celcius input to double.
+    // Convert the celcius string input to double.
     double celsius_double = atof(celsius_string);
 
     // Handle computation for fahrenheit.

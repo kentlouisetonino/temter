@@ -17,6 +17,10 @@
 ## $\textnormal{Local Development}$
 
 ```sh
+# Build the main file.
+chmod +x build.sh
+./build.sh
+
 # Run the CLI tool.
 chmod +x run.sh
 ./run.sh

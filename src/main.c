@@ -1,4 +1,5 @@
 #include "displays/app_description.h"
+#include "displays/app_option_error.h"
 #include "displays/app_options.h"
 #include "displays/clear_screen.h"
 #include "displays/escape_sequence.h"
@@ -8,6 +9,7 @@
 
 int main(void) {
   int option;
+  int invalid_option = 0;
 
   while (1) {
     // Clean up the screen.
@@ -20,6 +22,13 @@ int main(void) {
     add_new_line();
     add_new_line();
 
+    // Show the error message.
+    if (invalid_option) {
+      app_option_error();
+      add_new_line();
+      add_new_line();
+    }
+
     // Show the app options.
     app_options();
     add_new_line();
@@ -28,11 +37,15 @@ int main(void) {
     // Ask the user for their input.
     option = app_option();
 
-    // Reset the loop if invalid input.
-    if (option == 0) {
+    if (option == 5) {
+      break;
+    } else if (option == 0) {
+      invalid_option = 1;
       continue;
     } else if (option == 1) {
+      invalid_option = 0;
       celsius_option();
+      continue;
     };
 
     break;

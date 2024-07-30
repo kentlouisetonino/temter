@@ -2,7 +2,6 @@
 #include <ctype.h>
 
 int check_valid_input(char *input) {
-  int input_length = sizeof(input);
   int valid_input = 1;
   int decimal_count = 0;
 

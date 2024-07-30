@@ -31,7 +31,7 @@ void celsius_option(void) {
 
     // Ask the input.
     add_new_tab();
-    printf(" Celsius (°C): ");
+    printf(" Celsius (°C)     : ");
     scanf("%s", celsius_string);
     fgets(garbage_buffer, 50, stdin);
 
@@ -50,20 +50,22 @@ void celsius_option(void) {
     // Handle computation for fahrenheit.
     double fahrenheit = ((9.0 / 5.0) * celsius_double) + 32;
     add_new_tab();
-    printf(" %sFahrenheit (°F):%s %s%.4lf%s", BLUE, RESET, GREEN, fahrenheit,
-           RESET);
+    printf(" %sFahrenheit (°F)%s  : %s%.4lf (°F)%s ", BLUE, RESET, YELLOW,
+           fahrenheit, RESET);
     add_new_line();
 
     // Handle computation for kelvbin
     double kelvin = celsius_double + 273.15;
     add_new_tab();
-    printf(" %sKelvin (°K):%s %s%.4lf%s", BLUE, RESET, GREEN, kelvin, RESET);
+    printf(" %sKelvin (°K)%s      : %s%.4lf (°K)%s", BLUE, RESET, YELLOW,
+           kelvin, RESET);
     add_new_line();
 
     // Handle computation for rankine.
     double rankine = celsius_double * (9.0 / 5.0) + 491.67;
     add_new_tab();
-    printf(" %sRankine (°R):%s %s%.4lf%s", BLUE, RESET, GREEN, rankine, RESET);
+    printf(" %sRankine (°R)%s     : %s%.4lf (°R)%s", BLUE, RESET, YELLOW,
+           rankine, RESET);
     add_new_line();
     add_new_line();
 

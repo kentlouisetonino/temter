@@ -51,5 +51,7 @@ int main(void) {
     break;
   }
 
+  add_new_line();
+  add_new_line();
   return 0;
 }

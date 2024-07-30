@@ -1,6 +1,6 @@
 # Metadata of the CLI tool.
 name: tempscale
-version: "2.0.0"
+version: "2.0.2"
 summary: CLI Tool
 description: |
   A CLI tool that converts temperature scale.

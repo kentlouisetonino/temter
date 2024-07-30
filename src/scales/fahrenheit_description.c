@@ -9,7 +9,7 @@ void fahrenheit_description(void) {
   add_new_line();
   add_new_tab();
   add_new_tab();
-  printf("   %sFahrenheit (°F) to Other Scale%s", GREEN, RESET);
+  printf("  %sFahrenheit (°F) to Other Scale%s", GREEN, RESET);
   add_new_line();
   add_new_line();
   add_new_tab();

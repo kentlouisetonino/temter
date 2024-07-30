@@ -1,8 +1,8 @@
 #include "../displays/ansi_color_codes.h"
 #include "../displays/clear_screen.h"
 #include "../displays/escape_sequence.h"
-#include "celsius_description.h"
 #include "check_valid_input.h"
+#include "fahrenheit_description.h"
 
 void fahrenheit_option(void) {
   char *fahrenheit_string = malloc(sizeof(char) * 50);
@@ -17,7 +17,7 @@ void fahrenheit_option(void) {
     add_new_line();
 
     // Display the option description.
-    celsius_description();
+    fahrenheit_description();
     add_new_line();
     add_new_line();
 

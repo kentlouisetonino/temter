@@ -5,6 +5,7 @@
 #include "displays/escape_sequence.h"
 #include "inputs/app_option.h"
 #include "scales/celsius_option.h"
+#include "scales/fahrenheit_option.h"
 #include <stdio.h>
 
 int main(void) {
@@ -45,6 +46,10 @@ int main(void) {
     } else if (option == 1) {
       invalid_option = 0;
       celsius_option();
+      continue;
+    } else if (option == 2) {
+      invalid_option = 0;
+      fahrenheit_option();
       continue;
     };
 

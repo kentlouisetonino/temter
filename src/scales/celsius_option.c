@@ -51,26 +51,26 @@ void celsius_option(void) {
     // Handle computation for fahrenheit.
     double fahrenheit = ((9.0 / 5.0) * celsius_double) + 32;
     add_new_tab();
-    printf("%sFahrenheit (°F):%s %s%lf%s", BLUE, RESET, GREEN, fahrenheit,
+    printf(" %sFahrenheit (°F):%s %s%lf%s", BLUE, RESET, GREEN, fahrenheit,
            RESET);
     add_new_line();
 
     // Handle computation for kelvbin
     double kelvin = celsius_double + 273.15;
     add_new_tab();
-    printf("%sKelvin (°K):%s %s%lf%s", BLUE, RESET, GREEN, kelvin, RESET);
+    printf(" %sKelvin (°K):%s %s%lf%s", BLUE, RESET, GREEN, kelvin, RESET);
     add_new_line();
 
     // Handle computation for rankine.
     double rankine = celsius_double * (9.0 / 5.0) + 491.67;
     add_new_tab();
-    printf("%sRankine (°R):%s %s%lf%s", BLUE, RESET, GREEN, rankine, RESET);
+    printf(" %sRankine (°R):%s %s%lf%s", BLUE, RESET, GREEN, rankine, RESET);
     add_new_line();
     add_new_line();
 
     // Ask user if want to try again.
     add_new_tab();
-    printf("Try again (1-yes, 0-no)?: ");
+    printf(" Try again (1-yes, 0-no)?: ");
     scanf("%d", &try_again);
     fgets(garbage_buffer, 50, stdin);
 

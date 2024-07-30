@@ -44,7 +44,7 @@ void kelvin_option(void) {
       invalid_input = 0;
     }
 
-    // Convert the kelvin input to double..
+    // Convert the kelvin string input to double..
     double kelvin_double = atof(kelvin_string);
 
     // Handle computation for celsius scale.

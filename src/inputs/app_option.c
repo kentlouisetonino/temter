@@ -1,6 +1,5 @@
 #include "../displays/ansi_color_codes.h"
 #include "../displays/escape_sequence.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 int app_option(void) {

@@ -17,8 +17,8 @@
 
 ```sh
 # Build the main file.
-chmod +x build.sh
-./build.sh
+chmod +x run-build.sh
+./run-build.sh
 
 # Run the CLI tool.
 chmod +x run.sh

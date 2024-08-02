@@ -8,7 +8,6 @@
 #include "scales/fahrenheit_option.h"
 #include "scales/kelvin_option.h"
 #include "scales/rankine_option.h"
-#include <stdio.h>
 
 int main(void) {
   int option;

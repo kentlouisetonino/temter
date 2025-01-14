@@ -1,4 +1,4 @@
-## $\textnormal{TempScale}$
+## SW - TempScale
 
 <br />
 
@@ -13,7 +13,7 @@
 
 
 
-## $\textnormal{Local Development}$
+## Local Development
 
 ```sh
 # Build the main file.
@@ -34,7 +34,7 @@ chmod +x run-debug.sh
 
 
 
-## $\textnormal{Installation}$
+## Installation
 
 ```sh
 # If already installed.

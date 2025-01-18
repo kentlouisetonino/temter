@@ -3,7 +3,7 @@
 <br />
 <br />
 
-## SW - TempScale
+## Description
 
 > - A CLI tool that converts temperature scale.
 

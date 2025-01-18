@@ -5,6 +5,6 @@ debug:
 	make build
 	gdb bin/tempscale
 
-tempscale:
+run:
 	make build
 	bin/tempscale

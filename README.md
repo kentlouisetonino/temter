@@ -17,16 +17,13 @@
 
 ```sh
 # Build the main file.
-chmod +x run-build.sh
-./run-build.sh
+make build
 
 # Run the CLI tool.
-chmod +x run.sh
-./run.sh
+make run
 
 # Run the CLI tool with GNU Debugger.
-chmod +x run-debug.sh
-./run-debug.sh
+make debug
 ```
 
 <br />
